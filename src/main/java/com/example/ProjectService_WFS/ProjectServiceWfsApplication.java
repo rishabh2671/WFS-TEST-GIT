@@ -9,6 +9,7 @@ public class ProjectServiceWfsApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(ProjectServiceWfsApplication.class, args);
+
 	}
 
 }

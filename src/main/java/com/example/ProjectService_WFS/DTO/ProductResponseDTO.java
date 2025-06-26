@@ -1,15 +1,12 @@
-package com.example.ProjectService_WFS.models;
+package com.example.ProjectService_WFS.DTO;
 
 import com.example.ProjectService_WFS.fakestoreapi.Rating;
 import lombok.Data;
-import lombok.Getter;
-import lombok.Setter;
-
+import lombok.NoArgsConstructor;
 
 @Data
-@Getter
-@Setter
-public class Product extends BaseModel{
+@NoArgsConstructor
+public class ProductResponseDTO {
     private Integer Id;
     private String title;
     private Double price;
@@ -17,4 +14,5 @@ public class Product extends BaseModel{
     private String category;
     private String image;
     private Rating rating;
+
 }
